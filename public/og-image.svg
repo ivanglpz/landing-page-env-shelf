@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="env-shelf Open Graph image">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0c0f" />
+      <stop offset="100%" stop-color="#1f2329" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9df8ff" />
+      <stop offset="100%" stop-color="#9dffbf" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="1050" cy="120" r="240" fill="#7ef6ff" opacity="0.08" />
+  <circle cx="120" cy="620" r="300" fill="#9dffbf" opacity="0.08" />
+
+  <g transform="translate(100 130)">
+    <rect x="0" y="0" width="136" height="136" rx="30" fill="#181b20" stroke="#f2f2f2" stroke-width="4" />
+    <circle cx="68" cy="68" r="46" fill="none" stroke="#f2f2f2" stroke-width="6" />
+    <circle cx="68" cy="68" r="35" fill="none" stroke="#f2f2f2" stroke-width="4" opacity="0.9" />
+    <circle cx="68" cy="68" r="20" fill="#f2f2f2" />
+  </g>
+
+  <text x="266" y="205" fill="#f7f8fa" font-size="72" font-family="Inter, Arial, sans-serif" font-weight="800">env-shelf</text>
+  <text x="100" y="300" fill="#d4d8df" font-size="40" font-family="Inter, Arial, sans-serif">
+    Organize and edit .env files at scale
+  </text>
+  <text x="100" y="368" fill="url(#accent)" font-size="30" font-family="Inter, Arial, sans-serif">
+    Open-source environment manager for multi-repo teams
+  </text>
+</svg>

@@ -1,0 +1,20 @@
+---
+const languages = ["English", "Spanish", "Portuguese", "Japanese", "German"];
+---
+
+<section id="languages" class="container-shell pt-16">
+  <div class="rounded-3xl border border-line bg-panel/80 p-6 md:p-8">
+    <p class="text-xs uppercase tracking-[0.16em] text-accent">Internationalization</p>
+    <h2 class="mt-2 text-2xl font-bold md:text-3xl">Ready for global teams</h2>
+    <p class="mt-3 max-w-2xl text-muted">
+      env-shelf ships in multiple languages today and can be extended with new translations as the community grows.
+    </p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      {
+        languages.map((language) => (
+          <span class="rounded-full border border-line bg-bg/70 px-4 py-2 text-sm">{language}</span>
+        ))
+      }
+    </div>
+  </div>
+</section>

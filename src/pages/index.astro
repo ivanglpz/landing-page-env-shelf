@@ -1,0 +1,29 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import Header from "../components/Header.astro";
+import Hero from "../components/Hero.astro";
+import FeatureGrid from "../components/FeatureGrid.astro";
+import LanguageStrip from "../components/LanguageStrip.astro";
+import OpenSource from "../components/OpenSource.astro";
+---
+
+<MainLayout>
+  <Header />
+  <main>
+    <Hero />
+    <FeatureGrid />
+    <LanguageStrip />
+    <OpenSource />
+  </main>
+  <footer class="container-shell pb-10">
+    <div class="flex flex-wrap items-center justify-between gap-4 border-t border-line pt-6 text-sm text-muted">
+      <p>env-shelf © {new Date().getFullYear()}</p>
+      <p>
+        This project was created with ❤️ by
+        <a href="http://ivangarcia.app/" class="underline decoration-accent/60 underline-offset-4 hover:text-ink">
+          Ivanglpz
+        </a>
+      </p>
+    </div>
+  </footer>
+</MainLayout>

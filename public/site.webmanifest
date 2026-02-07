@@ -1,0 +1,16 @@
+{
+  "name": "env-shelf",
+  "short_name": "env-shelf",
+  "description": "Open-source environment manager for teams with many repositories.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D0E10",
+  "theme_color": "#0D0E10",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
