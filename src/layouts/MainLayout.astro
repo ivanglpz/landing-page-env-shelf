@@ -10,9 +10,9 @@ interface Props {
 }
 
 const {
-  title = "env-shelf | Organize and edit .env files at scale",
+  title = "Manage every .env file from one shelf.",
   description = "env-shelf is an open-source app to scan folders, find .env files, edit variables, and keep environment configs clean.",
-  image = "/og-image.svg",
+  image = "/image.png",
   type = "website",
   noindex = false
 } = Astro.props;
@@ -39,15 +39,20 @@ const imageURL = new URL(image, Astro.site ?? Astro.url).toString();
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content={type} />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:site_name" content="env-shelf" />
     <meta property="og:image" content={imageURL} />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="env-shelf app preview" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={imageURL} />
+    <meta name="twitter:image:alt" content="env-shelf app preview" />
     <title>{title}</title>
   </head>
   <body>
