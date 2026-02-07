@@ -4,19 +4,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bg: "#090D14",
-        panel: "#101826",
-        ink: "#E5EDF9",
-        muted: "#93A5C5",
-        line: "#1E2A42",
-        accent: "#52E3C2",
-        accent2: "#5AA6FF"
+        bg: "#080808",
+        panel: "#121212",
+        ink: "#F5F5F5",
+        muted: "#A3A3A3",
+        line: "#2A2A2A",
+        accent: "#FFFFFF",
+        accent2: "#D4D4D4"
       },
       fontFamily: {
         sans: ['"Sora"', "ui-sans-serif", "system-ui", "sans-serif"]
       },
       boxShadow: {
-        glow: "0 10px 40px rgba(82, 227, 194, 0.2)"
+        glow: "0 10px 40px rgba(255, 255, 255, 0.08)"
       }
     }
   },
